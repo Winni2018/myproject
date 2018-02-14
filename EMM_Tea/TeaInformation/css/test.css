@@ -1,0 +1,316 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	overflow-x: hidden;
+}
+.container-fluid{
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+	text-align: center;
+	transition: all 0.4s;
+}
+.nav ul li a{
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	width: 120px;
+	height: 50px;
+	line-height: 50px;
+	color:#000000;
+}
+
+p{
+	letter-spacing: 1.5px;
+}
+a:hover{
+	text-decoration: none;
+}
+.nav-container{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	background-color: white;
+	opacity: 0.8;
+	box-shadow: 3px 3px 3px #737373;
+	z-index: 999;
+}
+.nav{
+	width: 800px;
+	height: 50px;
+	margin-left: 200px;
+	float: left;
+}
+.login-container{
+	width: 300px;
+	height: 50px;
+	float: left;
+	padding-left: 100px;
+}
+.nav img{
+	height: 50px;
+	float: left;
+	margin-right: 100px;
+}
+.nav ul li{
+	width: 120px;
+	height: 50px;
+	float: left;
+	transition: all 0.4s;
+}
+.nav ul li:hover{
+	border-bottom: 2px solid #D58512;
+}
+.nav-active{
+	border-bottom: 2px solid #D58512;
+}
+.nav-2{
+	width: 120px;
+	position: absolute;
+	top: 50px;
+	visibility: hidden;
+	z-index: 999;
+	
+}
+.nav-2 li{
+	width: 120px;
+	height: 50px;
+	float: none;
+	background-color: whitesmoke;
+}
+.nav-2 li a{
+	height: 50px;
+	line-height: 50px;
+}
+.nav ul li:hover ul li{
+	visibility: visible;
+	background-color: white;
+}
+.login-container a{
+	font-size: 14px;
+	display: block;
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	text-align: center;
+	transition: all 0.4s;
+}
+.login-container a:hover{
+	background-color: goldenrod;
+	color: white;
+}
+
+
+/*
+ * 
+ * 主体部分容器
+ * 
+ * */
+.main-container{
+	width: 100%;
+	height: auto;
+	position: relative;
+	/*border:1px solid black;*/
+}
+.main-1{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+/*	border:1px solid black;*/
+	
+}
+.main-title{
+	width: 100%;
+	height: 70px;
+	margin-bottom: 20px;
+	padding-left: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(248,248,255,0.4);
+	box-shadow: 1px 1px 1px #CCCCCC;
+}
+.main-title a{
+	width: 200px;
+}
+.main-title span{
+	font-size: 32px;
+	font-family: 隶书; 
+	display:block; 
+	line-height: 70px;
+	text-align: left; 
+	color: #333230; 
+}
+.content-main-1{
+	width: 100%;
+    height: auto;
+/*	border:1px solid black;*/
+}
+.row{
+	width: 95%;
+	margin:0 auto;	
+}
+.a{
+	margin-top: 30px;
+}
+.thumbnail{
+	padding: 20px;
+
+}
+.caption{
+	width: 100%;
+	height:300px;
+}
+.pic{
+	width: 100%;
+	height: 280px;
+}
+.pic1{
+	width: 100%;
+	height: 250px;
+	margin-top: 30px;
+	padding: 30px;
+	
+}
+.thumbnail p a{
+	padding:5px;
+	
+}
+h4{
+	text-align: center;
+	font-family:微软雅黑;
+}
+h3{
+	font-size: 20px;
+	text-align: left;
+	margin-top: 5px;
+   
+}
+.main-1 p{
+	color: #222222;
+}
+.main-1 a{
+	color: #575854;
+}
+.main-1 a:hover{
+	color:#A94442;
+}
+.main-2{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+/*	border:1px solid black;	*/
+}
+.content-main-2{
+	width: 100%;
+    height: auto;
+	/*border:1px solid black;*/
+}
+.box{
+	width: 100%;
+	/*height: 540px;	*/
+}
+.mb1{
+	width:80%;
+	height: 100px;
+	position: absolute;
+	top:100px;
+	left: 100%;
+	color:white;
+    font-size: 14px;
+	line-height: 100px;
+	text-align: center;
+	transition: all 2s;
+}
+.mb1 p{
+	padding: 5px;
+	text-align: center;
+	line-height: 30px;
+	color:white;
+}
+
+.box:hover .mb1 {
+	left:0;
+}
+	
+
+
+.main-3{
+	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: 2;
+/*	border:1px solid black;	*/
+}
+.content-main-3{
+	width: 100%;
+    /*height:450px;*/
+/*	border:1px solid black;*/
+}
+.mb{
+	width:80%;
+	height: 110px;
+	background-color:rgba(0,0,0,0.5);
+	opacity: 0.5;
+	position: absolute;
+	top:270px;
+	left: 100%;
+	color: white;
+    font-size: 16px;
+	line-height: 100px;
+	text-align: center;
+	transition: all 2s;
+
+}
+.mb a{
+	font-size:12px ;
+}
+.thumbnail:hover .mb {
+	left:10px;
+}
+
+
+/*
+ * 
+ * 底部
+ * 
+ * */
+.footer{
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	bottom: -250px;
+	padding-top: 40px;
+	background-color: #262626;
+}
+.box-4{
+	width: 90%;
+}
+.box-4 ul li{
+	width: 250px;
+	height: 40px;
+	
+}
+.box-4 ul li a{
+	width: 250px;
+	height: 40px;
+	color: navajowhite;
+}
+.first-li{
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+}
+.box-4 a:hover{
+	color: white;
+}
+
+.box-4-img{
+	padding-left: 20%;
+}
